@@ -1,0 +1,46 @@
+// ----------------------------------------
+//     Break Points For Media Queries
+// ----------------------------------------
+$bp-1200: 75em;
+$bp-1150: 71.875em;
+$bp-1100: 68.75em;
+$bp-1050: 65.625em;
+$bp-1000: 62.5em;
+$bp-950: 59.375em;
+$bp-900: 56.25em;
+$bp-850: 53.125em;
+$bp-800: 50em;
+$bp-750: 46.875em;
+$bp-700: 43.75em;
+$bp-650: 40.625em;
+$bp-600: 37.5em;
+$bp-550: 34.375em;
+$bp-500: 31.25em;
+$bp-450: 28.125em;
+$bp-400: 25em;
+$bp-350: 21.875em;
+$bp-300: 18.75em;
+
+
+// ----------------------------------------
+//     Font Family
+// ----------------------------------------
+$font-text: 'Roboto', sans-serif;
+$font-heading: 'Roboto', sans-serif;
+
+@font-face{
+    font-family: "font-arabic-heading";
+    src: url('../fonts/Scheherazade-Bold.ttf');
+}
+
+@font-face{
+    font-family: "font-arabic-text";
+    src: url('../fonts/Scheherazade-Regular.ttf');
+}
+
+// ----------------------------------------
+//     Arabic Fonts
+// ----------------------------------------
+
+$font-arabic-heading: font-arabic-heading;
+$font-arabic-text: font-arabic-text;

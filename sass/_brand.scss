@@ -1,0 +1,178 @@
+// ----------------------------------------
+//     Brands heading
+// ----------------------------------------
+
+main {
+    background-color: #F8F8F8;
+    padding: 2rem;
+
+    @media only screen and (max-width: $bp-1000) {
+        margin-top: 6rem;
+    }
+
+    @media only screen and (max-width: $bp-500) {
+        padding: 2rem 1rem;
+    }
+}
+
+.brands {
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+
+    @media only screen and (max-width: $bp-1000) {
+        width: 75%;
+    }
+
+    @media only screen and (max-width: $bp-650) {
+        width: 100%;
+    }
+
+    .heading {
+        padding: 2.5rem 0;
+        font-size: 1.7rem;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+
+
+    &__filter {
+
+        hr {
+            padding: .3px;
+            background-color: #eee;
+            border: none;
+
+        }
+
+        .desk-ul {
+            width: 82%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 2.5rem auto;
+            text-align: center;
+            background: #fff;
+
+            @media only screen and (max-width: $bp-800) {
+                display: none;
+            }
+
+
+
+
+            li {
+
+                flex-wrap: wrap;
+                display: flex;
+                padding: 1.4rem;
+
+                a {
+                    font-size: 1.4rem;
+                    color: #000;
+                    display: flex;
+                    flex-wrap: wrap;
+
+
+                    margin: .6rem 0;
+                    transition: all .1s;
+
+                    &:hover {
+                        transform: scale(1.3);
+                        color: #FEAEBB;
+                    }
+
+                }
+            }
+        }
+
+        .sticky-ul {
+            display: none;
+
+            @media only screen and (max-width: $bp-800) {
+                display: block;
+            }
+
+            select {
+                width: 100%;
+                padding: 0 2rem;
+                height: 4rem;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+        }
+
+
+        &--sel {
+            width: 100%;
+            padding: 2rem;
+            background: #fff;
+        }
+    }
+
+
+    &__A {
+        width: 100%;
+
+
+        h3 {
+            font-size: 3rem;
+            margin: 2rem 3rem;
+            padding: 2rem 3rem;
+        }
+
+        &--name {
+            width: 95%;
+            display: flex;
+
+            flex-wrap: wrap;
+            margin: 0 auto;
+            justify-content: center;
+
+
+            .img-box {
+
+
+                width: 10rem;
+                flex-wrap: wrap;
+                margin: 2rem;
+
+                img {
+                    width: 100%;
+
+
+
+                }
+
+                .img-name {
+
+
+                    a {
+                        width: 100%;
+                        font-size: 1.3rem;
+                        text-transform: uppercase;
+                        color: #333;
+
+                        width: 10rem;
+                        display: block;
+                        text-align: center;
+
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+
+.ul-fixed {
+    position: fixed;
+    width: 100% !important;
+    z-index: 100;
+    top: 5.5rem;
+    left: -0px;
+    overflow-x: hidden;
+
+}

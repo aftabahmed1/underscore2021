@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+    <defs>
+        <filter id="imcxy3sjqa">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.125490 0 0 0 0 0.125490 0 0 0 0 0.125490 0 0 0 1.000000 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g filter="url(#imcxy3sjqa)" transform="translate(-1542 -650) translate(1542 342) translate(0 308)">
+                    <g transform="translate(5 4)">
+                        <circle cx="13.333" cy="15.167" r="1.333" stroke="#202020" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M18 16.433l-1.033-.6c.04-.208.062-.42.066-.633 0-.235-.022-.47-.066-.7l.933-.567-1.233-2.166-.967.566c-.298-.287-.649-.514-1.033-.666V10.5H12v1.167c-.395.15-.758.377-1.067.666L10 11.767l-1.233 2.166.933.534c-.086.451-.086.915 0 1.366l-1.033.6L9.9 18.6l1-.6c.316.305.69.543 1.1.7v1.133h2.667V18.7c.399-.16.761-.397 1.066-.7l1.034.6L18 16.433z" transform="rotate(15 13.333 15.167)"/>
+                        <circle cx="7.1" cy="4.822" r="4" fill-rule="nonzero" stroke="#000"/>
+                        <path fill-rule="nonzero" stroke="#000" d="M11.823 11.675c-1.2-.695-2.728-1.111-4.391-1.111-3.866 0-7 2.248-7 5.022"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

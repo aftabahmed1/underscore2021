@@ -1,0 +1,119 @@
+// ----------------------------------------
+//     Font Family
+// ----------------------------------------
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+// ----------------------------------------
+//     Genral Styling
+// ----------------------------------------
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #000;
+    font-family: $font-text;
+    overflow-x: hidden;
+    max-width: 1440px !important;
+    margin: 0 auto;
+    background-color: #F8F8F8;
+
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    transition: scroll-behavior 0.3s ease;
+
+    @media only screen and (max-width: $bp-600) {
+        min-width: 100%;
+    }
+
+    @media only screen and (max-width: $bp-450) {
+        font-size: 58%;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-heading;
+}
+
+
+#index__ar{
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: $font-arabic-heading !important;
+    }
+    
+    font-family: $font-arabic-text !important;
+
+
+    .goTop{
+        left: 2rem !important;
+        right: auto;
+    }
+}
+
+
+.goTop {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    padding: .5rem;
+    background-color: #998AE5;
+    @include flex-col-center;
+    z-index: 3000;
+    border-radius: 50%;
+    display: none;
+
+    &:hover {
+        background-color: #7465c2;
+        cursor: pointer;
+    }
+
+    i {
+        font-size: 4rem;
+        color: #fff;
+    }
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+    <defs>
+        <filter id="pavl6ltjaa">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.125490 0 0 0 0 0.125490 0 0 0 0 0.125490 0 0 0 1.000000 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g filter="url(#pavl6ltjaa)" transform="translate(-1542 -342) translate(1542 342)">
+                <g transform="translate(6 7)">
+                    <path stroke="#202020" stroke-linecap="round" stroke-linejoin="round" d="M13.958 2.809L12.919 0 5.196 2.809"/>
+                    <path stroke="#202020" stroke-linecap="round" stroke-linejoin="round" d="M15.728 10.672v3.652c0 .465-.377.842-.843.842H.843c-.466 0-.843-.377-.843-.842V3.65c0-.465.377-.842.843-.842h14.042c.466 0 .843.377.843.842v3.651"/>
+                    <rect width="5.617" height="3.37" x="11.234" y="7.302" stroke="#202020" stroke-linecap="round" stroke-linejoin="round" rx="1"/>
+                    <path stroke="#202020" stroke-linecap="round" stroke-linejoin="round" d="M2.809 4.494h.561m2.247 0h.562m2.247 0h.561m2.247 0h.562M3.932 13.48h.562m2.246 0h.562m2.247 0h.562m2.247 0h.561"/>
+                    <circle cx="13.034" cy="9.017" r="1" fill="#202020"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+    <defs>
+        <filter id="tearzdn94a">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.125490 0 0 0 0 0.125490 0 0 0 0 0.125490 0 0 0 1.000000 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g>
+            <g>
+                <g filter="url(#tearzdn94a)" transform="translate(-1542 -518) translate(1542 342) translate(0 176)">
+                    <g stroke="#000" transform="translate(8 6)">
+                        <path d="M6.78 0C3.035 0 0 3.035 0 6.78c0 6.101 6.728 9.593 6.728 9.593s6.831-3.492 6.831-9.593C13.56 3.035 10.524 0 6.78 0z"/>
+                        <circle cx="6.78" cy="6.78" r="2.712"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
